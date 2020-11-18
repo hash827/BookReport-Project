@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <ListView
+                android:id="@+id/reportList"
+                android:layout_width="match_parent"
+                android:layout_height="560dp">
+
+            </ListView>
+
+    <Button
+        android:id="@+id/btn_to_add_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:background="@drawable/ripple_custom"
+        android:text="추가하기" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

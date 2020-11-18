@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="api_url">https://openapi.naver.com/v1/search/book.xml?display=20&amp;start=1&amp;query=</string>
+    <string name="api_url_author">https://openapi.naver.com/v1/search/book_adv.xml?display=20&amp;start=1&amp;d_auth=</string>
+    <string name="api_url_title">https://openapi.naver.com/v1/search/book_adv.xml?display=20&amp;start=1&amp;d_titl=</string>
+    <string name="library_url">http://data4library.kr/api/libSrchByBook.xml</string>
+    <string name="areacode1">11</string>
+    <string name="dialog_addNewBook_title">책 추가 확인</string>
+    <string name="dialog_message">책을 추가 하시겠습니까</string>
+    <string name="dialog_close_title">종료 확인</string>
+    <string name="dialog_close_message">종료하시겠습니까</string>
+    <string name="dialog_picture_title">수정 확인</string>
+    <string name="dialog_picture_message">수정하시겠습니까</string>
+    <string name="dialog_picture_ok">수정</string>
+    <string name="dialog_close_ok">종료</string>
+    <string name="dialog_ok">확인</string>
+    <string name="dialog_cancel">취소</string>
+    <string name="dialog_info_title">안내</string>
+    <string name="dialog_info_ok">확인</string>
+    <string-array name="book_state">
+        <item>읽는중</item>
+        <item>완료</item>
+    </string-array>
+
+
+</resources>
